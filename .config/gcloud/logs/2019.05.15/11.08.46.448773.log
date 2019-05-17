@@ -1,0 +1,13 @@
+2019-05-15 11:08:46,473 DEBUG    root            Loaded Command Group: [u'gcloud', u'container']
+2019-05-15 11:08:46,481 DEBUG    root            Loaded Command Group: [u'gcloud', u'container', u'operations']
+2019-05-15 11:08:46,483 DEBUG    root            No implementation for release track [GA] for element: [/usr/lib/google-cloud-sdk/lib/surface/container/binauthz]
+2019-05-15 11:08:46,486 DEBUG    root            Loaded Command Group: [u'gcloud', u'container', u'builds']
+2019-05-15 11:08:46,489 DEBUG    root            Loaded Command Group: [u'gcloud', u'container', u'node_pools']
+2019-05-15 11:08:46,491 DEBUG    root            No implementation for release track [GA] for element: [/usr/lib/google-cloud-sdk/lib/surface/container/subnets]
+2019-05-15 11:08:46,492 DEBUG    root            Loaded Command Group: [u'gcloud', u'container', u'get_server_config']
+2019-05-15 11:08:46,494 DEBUG    root            Loaded Command Group: [u'gcloud', u'container', u'images']
+2019-05-15 11:08:46,496 DEBUG    root            No implementation for release track [GA] for element: [/usr/lib/google-cloud-sdk/lib/surface/container/policy]
+2019-05-15 11:08:46,498 DEBUG    root            Loaded Command Group: [u'gcloud', u'container', u'clusters']
+2019-05-15 11:08:46,500 DEBUG    root            Loaded Command Group: [u'gcloud', u'alpha', u'container']
+2019-05-15 11:08:46,501 DEBUG    root            Loaded Command Group: [u'gcloud', u'beta', u'container']
+2019-05-15 11:08:46,503 ERROR    root            (gcloud.container) Invalid choice: 'cluster'. Did you mean 'clusters'?

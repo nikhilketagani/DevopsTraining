@@ -1,0 +1,31 @@
+2019-05-15 10:56:53,226 DEBUG    root            Loaded Command Group: [u'gcloud', u'init']
+2019-05-15 10:56:53,228 DEBUG    root            Running [gcloud.init] with arguments: []
+2019-05-15 10:56:53,229 INFO     ___FILE_ONLY___ Welcome! This command will take you through the configuration of gcloud.
+
+
+2019-05-15 10:56:53,230 INFO     ___FILE_ONLY___ Your current configuration has been set to: [default]
+
+
+2019-05-15 10:56:53,230 INFO     ___FILE_ONLY___ You can skip diagnostics next time by using the following flag:
+
+2019-05-15 10:56:53,230 INFO     ___FILE_ONLY___   gcloud init --skip-diagnostics
+
+
+2019-05-15 10:56:53,230 INFO     ___FILE_ONLY___ Network diagnostic detects and fixes local network connection issues.
+
+2019-05-15 10:56:53,231 INFO     ___FILE_ONLY___ Checking network connection...
+2019-05-15 10:56:54,233 INFO     ___FILE_ONLY___ Reachability Check passed.
+
+2019-05-15 10:56:54,234 INFO     ___FILE_ONLY___ Network diagnostic (1/1 checks) passed.
+
+
+2019-05-15 10:57:00,265 DEBUG    root            Loaded Command Group: [u'gcloud', u'auth']
+2019-05-15 10:57:00,274 DEBUG    root            Loaded Command Group: [u'gcloud', u'auth', u'login']
+2019-05-15 10:57:00,276 INFO     root            Executing: [gcloud auth login --force --brief]
+2019-05-15 10:57:00,278 DEBUG    root            Running [gcloud.auth.login] with arguments: [--brief: "True", --force: "True"]
+2019-05-15 10:57:05,358 INFO     ___FILE_ONLY___ Go to the following link in your browser:
+
+    https://accounts.google.com/o/oauth2/auth?redirect_uri=urn%3Aietf%3Awg%3Aoauth%3A2.0%3Aoob&prompt=select_account&response_type=code&client_id=32555940559.apps.googleusercontent.com&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fappengine.admin+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcompute+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Faccounts.reauth&access_type=offline
+
+
+

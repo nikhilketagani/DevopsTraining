@@ -1,0 +1,83 @@
+2019-05-15 11:00:12,002 DEBUG    root            Loaded Command Group: [u'gcloud', u'init']
+2019-05-15 11:00:12,004 DEBUG    root            Running [gcloud.init] with arguments: []
+2019-05-15 11:00:12,004 INFO     ___FILE_ONLY___ Welcome! This command will take you through the configuration of gcloud.
+
+
+2019-05-15 11:00:12,006 INFO     ___FILE_ONLY___ Your current configuration has been set to: [default]
+
+
+2019-05-15 11:00:12,006 INFO     ___FILE_ONLY___ You can skip diagnostics next time by using the following flag:
+
+2019-05-15 11:00:12,006 INFO     ___FILE_ONLY___   gcloud init --skip-diagnostics
+
+
+2019-05-15 11:00:12,006 INFO     ___FILE_ONLY___ Network diagnostic detects and fixes local network connection issues.
+
+2019-05-15 11:00:12,007 INFO     ___FILE_ONLY___ Checking network connection...
+2019-05-15 11:00:13,009 INFO     ___FILE_ONLY___ Reachability Check passed.
+
+2019-05-15 11:00:13,010 INFO     ___FILE_ONLY___ Network diagnostic (1/1 checks) passed.
+
+
+2019-05-15 11:01:15,077 DEBUG    root            Loaded Command Group: [u'gcloud', u'auth']
+2019-05-15 11:01:15,079 DEBUG    root            Loaded Command Group: [u'gcloud', u'auth', u'login']
+2019-05-15 11:01:15,081 INFO     root            Executing: [gcloud auth login --force --brief]
+2019-05-15 11:01:15,083 DEBUG    root            Running [gcloud.auth.login] with arguments: [--brief: "True", --force: "True"]
+2019-05-15 11:01:22,648 INFO     ___FILE_ONLY___ Go to the following link in your browser:
+
+    https://accounts.google.com/o/oauth2/auth?redirect_uri=urn%3Aietf%3Awg%3Aoauth%3A2.0%3Aoob&prompt=select_account&response_type=code&client_id=32555940559.apps.googleusercontent.com&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fappengine.admin+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcompute+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Faccounts.reauth&access_type=offline
+
+
+
+2019-05-15 11:02:32,380 INFO     oauth2client.client Successfully retrieved access token
+2019-05-15 11:02:32,393 INFO     root            Display format: "none"
+2019-05-15 11:02:32,397 DEBUG    root            SDK update checks are disabled.
+2019-05-15 11:02:32,398 INFO     ___FILE_ONLY___ You are logged in as: [ksnnarsy@gmail.com].
+
+
+2019-05-15 11:04:12,272 INFO     ___FILE_ONLY___ Your current project has been set to: [monitoring-application-235120].
+
+
+2019-05-15 11:04:12,274 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute', u'project_info']
+2019-05-15 11:04:12,298 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute', u'project-info', u'describe']
+2019-05-15 11:04:12,299 INFO     root            Executing: [gcloud compute project-info describe --quiet]
+2019-05-15 11:04:12,301 DEBUG    root            Running [gcloud.compute.project-info.describe] with arguments: [--no-user-output-enabled: "false", --quiet: "True", --verbosity: "none"]
+2019-05-15 11:04:12,622 INFO     root            Display disabled.
+2019-05-15 11:04:12,623 DEBUG    root            SDK update checks are disabled.
+2019-05-15 11:04:17,897 DEBUG    root            Executing command: [u'/usr/lib/google-cloud-sdk/bin/gsutil', u'config', u'-n', u'-o', u'/home/ksnnarsy/.boto']
+2019-05-15 11:04:19,107 DEBUG    ___FILE_ONLY___ 
+2019-05-15 11:04:19,107 DEBUG    ___FILE_ONLY___ This command will create a boto config file at /home/ksnnarsy/.boto
+containing your credentials, based on your responses to the following
+questions.
+
+Boto config file "/home/ksnnarsy/.boto" created. If you need to use a
+proxy to access the Internet please see the instructions in that file.
+
+2019-05-15 11:04:19,108 INFO     ___FILE_ONLY___ Created a default .boto configuration file at [/home/ksnnarsy/.boto]. See this file and
+[https://cloud.google.com/storage/docs/gsutil/commands/config] for more
+information about configuring Google Cloud Storage.
+
+2019-05-15 11:04:19,108 INFO     ___FILE_ONLY___ Your Google Cloud SDK is configured and ready to use!
+
+
+2019-05-15 11:04:19,108 INFO     ___FILE_ONLY___ * Commands that require authentication will use ksnnarsy@gmail.com by default
+
+2019-05-15 11:04:19,108 INFO     ___FILE_ONLY___ * Commands will reference project `monitoring-application-235120` by default
+
+2019-05-15 11:04:19,108 INFO     ___FILE_ONLY___ Run `gcloud help config` to learn how to change individual settings
+
+
+2019-05-15 11:04:19,108 INFO     ___FILE_ONLY___ This gcloud configuration is called [default]. You can create additional configurations if you work with multiple accounts and/or projects.
+
+2019-05-15 11:04:19,108 INFO     ___FILE_ONLY___ Run `gcloud topic configurations` to learn more.
+
+
+2019-05-15 11:04:19,109 INFO     ___FILE_ONLY___ Some things to try next:
+
+
+2019-05-15 11:04:19,109 INFO     ___FILE_ONLY___ * Run `gcloud --help` to see the Cloud Platform services you can interact with. And run `gcloud help COMMAND` to get help on any gcloud command.
+
+2019-05-15 11:04:19,109 INFO     ___FILE_ONLY___ * Run `gcloud topic -h` to learn about advanced features of the SDK like arg files and output formatting
+
+2019-05-15 11:04:19,110 INFO     root            Display format: "default"
+2019-05-15 11:04:19,110 DEBUG    root            SDK update checks are disabled.

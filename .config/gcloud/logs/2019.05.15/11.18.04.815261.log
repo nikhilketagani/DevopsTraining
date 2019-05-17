@@ -1,0 +1,26 @@
+2019-05-15 11:18:04,824 DEBUG    root            Loaded Command Group: [u'gcloud', u'config']
+2019-05-15 11:18:04,831 DEBUG    root            Loaded Command Group: [u'gcloud', u'config', u'config_helper']
+2019-05-15 11:18:04,834 DEBUG    root            Running [gcloud.config.config-helper] with arguments: [--format: "json"]
+2019-05-15 11:18:04,844 INFO     root            Display format: "default json"
+2019-05-15 11:18:04,845 INFO     ___FILE_ONLY___ {
+  "configuration": {
+    "active_configuration": "default",
+    "properties": {
+      "core": {
+        "account": "ksnnarsy@gmail.com",
+        "disable_usage_reporting": "True",
+        "project": "monitoring-application-235120"
+      }
+    }
+  },
+  "credential": {
+    "access_token": "ya29.GlsJB-jrbPi6woSCc-lRpdx1OSON3ih0qDsFzwfs_fmu9jinuVN2MCby_cIdXktMS88KPzEIBTLqrmYyyafxGOY6YyKvM7un7y6HFUlO_bLSCtWoRu7lfd0bhKjx",
+    "token_expiry": "2019-05-15T12:02:32Z"
+  },
+  "sentinels": {
+    "config_sentinel": "/home/ksnnarsy/.config/gcloud/config_sentinel"
+  }
+}
+2019-05-15 11:18:04,845 INFO     ___FILE_ONLY___ 
+
+2019-05-15 11:18:04,850 DEBUG    root            SDK update checks are disabled.

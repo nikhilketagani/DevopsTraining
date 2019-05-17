@@ -1,0 +1,16 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+ name: my-deployment
+spec:
+ replicas: 10
+ template: 
+   metadata:
+     labels:
+       app: my-app
+   spec:
+     containers:
+     - name: sample-conatiner
+       image: nginx
+       ports:
+       - containerPort: 80

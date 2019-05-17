@@ -1,0 +1,220 @@
+    1  sudo su -
+    2  sudo -su
+    3  sudo su -
+    4  sudo  su -
+    5  sudo su -
+    6  SUDO SU -
+    7  sudo su -
+    8  gcloud init
+    9  gcloud compute instances list
+   10  gcloud container cluster create k8s-cluster --zone=asia-south1-c
+   11  gcloud container clusters create k8s-cluster --zone=asia-south1-c
+   12  sudo apt-get update && sudo apt-get install -y apt-transport-https
+   13  curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+   14  sudo apt-get update && sudo apt-get install -y apt-transport-https
+   15  curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+   16  echo "deb https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee -a /etc/apt/sources.list.d/kubernetes.list
+   17  sudo apt-get update
+   18  sudo apt-get install -y kubectl
+   19  kubectl version
+   20  kubectl
+   21  clear
+   22  kubectl get node
+   23  ppwd
+   24  pwd
+   25  sudo su -
+   26  kubectl get node
+   27  pwd
+   28  vim sample.yaml
+   29  kubectl create -f sample.yml
+   30  kubectl create -f sample.yaml
+   31  vim  sample.yaml
+   32  kubectl create -f sample.yaml
+   33  kubectl get pods
+   34  kubectl describe pods sample-pod
+   35  sudo su -
+   36  kubectl
+   37  kubectl version
+   38  history
+   39  pwd
+   40  ls
+   41  vi deployment.yaml
+   42  kubectl create -f deployment.yaml
+   43  kubectl get pods
+   44  kubectl get deployments
+   45  vi deployment.yaml
+   46  kubectl describe deploymnet my-deployment
+   47  kubectl describe deploymnet  my-deploymenment
+   48  kubectl describe deploymnet  my-deployment
+   49  kubectl describe deployment  my-deployment
+   50  kubectl get rs
+   51  kubectl describe pods | grep -i IP
+   52  kubectl describe pods | grep NODE34ff
+   53  kubectl describe pods | grep node
+   54  kubectl delete -f sample.yaml
+   55  kubectl describe deployment my-deployment
+   56  ls
+   57  vi service.yaml
+   58  kubectl describe pods | grep -i IPerferferferfrggergg
+   59  ls
+   60  kubectl create -f service.yaml
+   61  kubectl get service my-service
+   62  kubectl describe service my-service
+   63  kubectl delete -f service.yaml
+   64  kubectl get service
+   65  vim service1.yaml
+   66  kubectl create -f service.yaml
+   67  kubectl get service
+   68  vim service1.yaml
+   69  kubectl delete -f service.yaml
+   70  kubectl create -f service.yaml
+   71  kubectl get service
+   72  vim service1.yaml
+   73  kubectl delete -f service1.yaml
+   74  kubectl create -f service1.yaml
+   75  kubectl get service
+   76  kubectl describe service my-service
+   77  curl 10.52.0.11:80
+   78  curl 10.55.250.181
+   79  ip addr
+   80  docker network ls
+   81  sudo docker network ls
+   82  vim service2.yaml
+   83  cp service1.yaml service2.yaml
+   84  vim  service2.yaml
+   85  kubectl create -f service2.yaml
+   86  kubectl get service 
+   87  kubectl get nodes
+   88  kubectl get pods
+   89  kubectl get services
+   90  la
+   91  ls
+   92  logout
+   93  exit
+   94  history
+   95  ls
+   96  vi deployment.yaml 
+   97  vi deployment1.yaml 
+   98  docker images
+   99  sudo su -
+  100  vi deployment1.yaml 
+  101  sudo su -
+  102  kubectl create -f deployment1.yaml 
+  103  kubectl get pods
+  104  kubectl describe pods
+  105  kubectl describe pods addressbook-deploymnet
+  106  kubectl get pods
+  107  kubectl describe pods addressbook-deployment-565fd5f599-2r2vr
+  108  kubectl create -f deployment1.yaml 
+  109  vi deployment1.yaml 
+  110  kubectl delete -f deployment1.yaml 
+  111  kubectl create -f deployment1.yaml 
+  112  kubectl get pods
+  113  kubectl describe pods 
+  114  kubectl get  pods 
+  115  kubectl describe addressbook-deployment-5d974d9ff5-hxqz4
+  116  kubectl describe pod  addressbook-deployment-5d974d9ff5-hxqz4
+  117  cp  deployment1.yaml /root/tmp
+  118  sudo cp  deployment1.yaml /root/tmp
+  119  sudo -su
+  120  sudo su -
+  121  kubectl describe pod  addressbook-deployment-5d974d9ff5-hxqz4
+  122  kubectl get pods
+  123  kubectl decribe pod  addressbook-deployment-5d974d9ff5-scg6d 
+  124  kubectl decribe pod s addressbook-deployment-5d974d9ff5-scg6d 
+  125  kubectl describe pod s addressbook-deployment-5d974d9ff5-scg6d 
+  126  kubectl delete -f deployment1.yaml 
+  127  vim  deployment1.yaml 
+  128  kubectl create -f deployment1.yaml 
+  129  kubectl get pods
+  130  ls
+  131  cim service3.yaml
+  132  vim service2.yaml
+  133  vim service3.yaml
+  134  kubectl create -f service3.yaml
+  135  vim service3.yaml
+  136  kubectl create -f service3.yaml
+  137  vim service3.yaml
+  138  kubectl create -f service3.yaml
+  139  vim service3.yaml
+  140  kubectl create -f service3.yaml
+  141  kubectl get service
+  142  curl 35.244.3.28
+  143  curl 35.244.3.28:80
+  144  curl 10.55.252.86    
+  145  vim deployment1.yaml 
+  146  curl 10.55.252.86    
+  147  curl 35.244.3.28
+  148  kubectl get nodes
+  149  kubectl get deploy
+  150  kubectl get deploy addressbook-deployment
+  151  kubectl get svc
+  152  kubectl describe svc addressbook-loadbalancer
+  153  kubectl delete -f service3.yaml
+  154  kubectl create -f service3.yaml
+  155  kubectl get svc
+  156  kubectl get nodes
+  157  kubectl get pods
+  158  kubectl get svc
+  159  cd /var/lib/jenkins/workspace/DevPackage/target/addressbook.war
+  160  cd /var/lib/jenkins/workspace/DevPackage/target/
+  161  ls
+  162  cd
+  163  visudo
+  164  sudo su -
+  165  ls
+  166  pwd
+  167  mv -rf /home/ksnnarsy /home/ksnnarsy/kubernetes
+  168  mv -f /home/ksnnarsy /home/ksnnarsy/kubernetes
+  169  mv -r /home/ksnnarsy /home/ksnnarsy/kubernetes
+  170  mv -R /home/ksnnarsy /home/ksnnarsy/kubernetes
+  171  cp  /home/ksnnarsy /home/ksnnarsy/kubernetes
+  172  cp  /root/home/ksnnarsy /home/ksnnarsy/kubernetes
+  173  cp  /root/home/ksnnarsy /root/home/ksnnarsy/kubernetes
+  174  su cp  /root/home/ksnnarsy /root/home/ksnnarsy/kubernetes
+  175  sudo cp  /root/home/ksnnarsy /root/home/ksnnarsy/kubernetes
+  176  sudo cp  /root/home/ksnnarsy/ /root/home/ksnnarsy/kubernetes
+  177  pwd
+  178  sudo su -
+  179  vi deployment1.yaml
+  180  kubectl apply -f deployment.yaml --record
+  181  kubectl get svc
+  182  kubectl describe svc addressbook-loadbalancer
+  183  kubectl describe pods
+  184  kubectl get  pods
+  185  kubectl describe pods addressbook-deployment-58d68f9fb8-6gm49
+  186  kubectl describe deploy 
+  187  vi deployment1.yaml
+  188  kubectl rollout satus deployment addressbook-deploymnet
+  189  kubectl rollout status deployment addressbook-deploymnet
+  190  kubectl rollout status deployment addressbookdeploymnet
+  191  kubectl get deploy \
+  192  ls
+  193  sudo cp deployment1.yaml /root
+  194  sudo su -
+  195  kubectl get deploy
+  196  kubectl get rs
+  197  vi deployment1.yaml
+  198  kubectl apply -f deployment1.yaml --record
+  199  kubectl get nodes
+  200  kubectl get pods
+  201  kubectl rollout history
+  202  kubectl rollout history deployment addressbook-deployment
+  203  kubectl rollout undo deployment addressbook-deployment --to-revision=3
+  204  kubectl rollout status deployment addressbook-deployment
+  205  kubectl rollout get rs
+  206  kubectl  get rs
+  207  kubectl rollout undo deployment addressbook-deployment --to-revision=1
+  208  kubectl  get rs
+  209  kubectl rollout status deployment addressbook-deployment
+  210  kubectl  get rs
+  211  kubectl rollout history deployment addressbook-deployment
+  212  pwd
+  213  cd .kube/
+  214  ll -al
+  215  vim config 
+  216  cd
+  217  sudo su -
+  218  history
+  219  history |cat new
+  220  history |cat > new
